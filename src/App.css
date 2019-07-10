@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,33 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.App{
+  border: 1px solid red;
+  margin: 0 auto;
+  background-color: darkolivegreen
+}
+
+.App .Names{
+  border: 1px solid blue;
+  margin: 0 10px;
+  background: lightblue;
+  color: crimson;
+}
+
+.Names li{
+  list-style-type: square;
+  line-height: 2em
+}
+
+.App h1{
+  text-align: center;
+  background-color: blue;
+  padding: 10px;
+  margin:2px 10px;
+  border: 1px solid black;
+  color: white;
+  text-transform: uppercase;
 }
